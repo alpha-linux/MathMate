@@ -22,16 +22,47 @@
       </div>
 
       <div class="modifiers">
-        <button class="shift center-shift"></button>
-        <button class="alpha center-alpha"></button>
-        <button class="graph center-graph"></button>
-        <button class="mode center-mode"></button>
+        <button class="shift center-shift" tabindex="1"></button>
+        <button class="alpha center-alpha" tabindex="2"></button>
+        <button class="mode" tabindex="3"></button>
+        <button class="graph center-shift" tabindex="4"></button>
       </div>
 
       <table class="function-keys">
         <tr>
           <td>
-            <button class="reciprocal key-function">x</button>
+            <button class="solver center-shift">SOLVE</button>
+          </td>
+          <td>
+            <button class="sumation center-shift">
+              $$\sum\limits_{\square}^\square \square$$
+            </button>
+          </td>
+          <td></td>
+          <td></td>
+          <td>
+            <button class="diff center-shift">$$\frac{d}{dx}\square$$</button>
+          </td>
+          <td>
+            <button class="var-x center-shift">$$x$$</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button class="sqr">$$x^2$$</button>
+          </td>
+          <td><button class="pow center-shift">$$x^\square$$</button></td>
+          <td><button class="reciprocal center-shift">$$x^{-1}$$</button></td>
+          <td>
+            <button class="fraction center-shift">
+              $$\frac{\square}{\square}$$
+            </button>
+          </td>
+          <td><button class="invert">$$(-)$$</button></td>
+          <td>
+            <button class="deg">
+              $$^{\circ \prime\hspace{2pt} \prime\prime}$$
+            </button>
           </td>
         </tr>
       </table>
