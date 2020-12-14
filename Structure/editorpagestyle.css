@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.webframe {
+  height: 100%;
+  width: 100%;
+  background: #252525;
+}
+
+.header {
+  width: 100%;
+  height: 90px;
+  border-bottom: 1px solid rgba(141, 141, 141, 0.411);
+}
+
+.titlebar {
+  width: 100%;
+  height: 30px;
+  color: white;
+  background: #323f4b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content {
+  font: 16px Courier;
+  flex: 0 0 70px;
+}
+
+/* .page {
+  width: 793.7007874px;
+  height: 1122.519685px;
+  background: rgb(255, 255, 255);
+  margin: 50px auto;
+} */
