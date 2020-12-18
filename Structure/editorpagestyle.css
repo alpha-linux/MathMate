@@ -1,14 +1,12 @@
-body {
+ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  width: 100%;
-  overflow: hidden;
 }
 
-.webframe {
-  height: 200vh;
-  width: 200vh;
+/* .webframe {
+  height: 100%;
+  width: 100%;
   background: #252525;
 }
 
@@ -34,9 +32,54 @@ body {
   flex: 0 0 70px;
 }
 
-/* .page {
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 92px;
+  left: 0;
+  background: #646464;
+  opacity: 0.2;
+  overflow-x: hidden;
+  transition: 0.1s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: rgb(43, 136, 243);
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.editor-section {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  color: white;
+  transition: margin-left 0.1s;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.page {
   width: 793.7007874px;
   height: 1122.519685px;
   background: rgb(255, 255, 255);
+  color: black;
   margin: 50px auto;
-} */
+} *//
